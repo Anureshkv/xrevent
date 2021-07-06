@@ -99,8 +99,7 @@
         "CUSTOMERS": "Customers",
         "CART": "Cart",
         "CHECKOUT": "Checkout",
-        "SHOPS": "Shops",
-        "ADDPRODUCT": "Add Product"
+        "SHOPS": "Shops"
       }
     },
     "EMAIL": {
@@ -108,6 +107,14 @@
       "LIST": {
         "INBOX": "Inbox",
         "READEMAIL": "Read Email"
+      }
+    },
+    "PROFILE":{
+      "TEXT":"Profile",
+      "LIST":{
+        "CHANGEPASSWORD":"Change password",
+        "CHANGEEMAIL":"Change email",
+        "CHANGEPROFILE":"Change Profile"
       }
     }
   }

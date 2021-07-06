@@ -534,9 +534,9 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Administrator\Desktop\user xr dashboard\src\assets\scss\bootstrap.scss */"./src/assets/scss/bootstrap.scss");
-__webpack_require__(/*! C:\Users\Administrator\Desktop\user xr dashboard\src\assets\scss\app.scss */"./src/assets/scss/app.scss");
-module.exports = __webpack_require__(/*! C:\Users\Administrator\Desktop\user xr dashboard\src\styles.scss */"./src/styles.scss");
+__webpack_require__(/*! C:\Users\Administrator\Desktop\User dashboard Phase two\src\assets\scss\bootstrap.scss */"./src/assets/scss/bootstrap.scss");
+__webpack_require__(/*! C:\Users\Administrator\Desktop\User dashboard Phase two\src\assets\scss\app.scss */"./src/assets/scss/app.scss");
+module.exports = __webpack_require__(/*! C:\Users\Administrator\Desktop\User dashboard Phase two\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })
