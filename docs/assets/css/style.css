@@ -533,13 +533,13 @@ section {
   color: #106eea;
 }
 .section-title p {
-  margin: 15px auto 0 auto;
-  font-weight: 600;
+  /* margin: 15px auto 0 auto;
+  font-weight: 600; */
 }
 @media (min-width: 1024px) {
-  .section-title p {
+  /* .section-title p {
     width: 50%;
-  }
+  } */
 }
 
 /*--------------------------------------------------------------
