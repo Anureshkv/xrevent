@@ -10,6 +10,22 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <style>
+     button {
+        display: inline-block;
+        background-color: blue;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 28px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+  </style>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -80,7 +96,7 @@
               <li><a href="#">Drop Down 4</a></li> -->
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#requestdemo">Request Demo</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Request Demo</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -1049,20 +1065,38 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <!-- <form method="post" action="https://formspree.io/f/mgerzlpa" class="php-email-form">
               <div class="row">
                 <div class="col form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col form-group">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input
+                          type="text"
+                          class="form-control"
+                          name="text"
+                          placeholder="Name"
+                        />
                 </div>
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input
+                          type="text"
+                          class="form-control"
+                          name="phone"
+                          placeholder="Phone"
+                        />
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <input
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder="Email"
+              />
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -1070,6 +1104,72 @@
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
+            </form> -->
+            <form method="POST" action="https://formspree.io/f/mgerzlpa" >
+              <div class="row">
+                <div class="col form-group" >
+                  
+                    <input
+                      type="text"
+                      width="5%"
+                      class="form-control"
+                      name="text"
+                      placeholder="Name"
+                    />
+                  
+                </div>
+                <div class="col form-group">
+                
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="phone"
+                      placeholder="Phone"
+                    />
+                 
+                </div>
+                <div class="form-group" style="margin-bottom: 1px;">
+                 <br>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Email"
+                    />
+                
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1px;">
+                  <br>
+                     <input
+                       type="text"
+                       class="form-control"
+                       name="text"
+                       placeholder="City"
+                     />
+                     
+                 </div>
+                 <div class="form-group" style="margin-bottom: 1px;">
+                  <br>
+                     <input
+                       type="text"
+                       class="form-control"
+                       style="padding: 28px;"
+                       name="text"
+                       placeholder="  Specify your requirements"
+                     />
+                    
+                 </div>
+               
+                  <div class="text-center">
+                    <br>
+                    <br>
+                    <button type="submit" class="button">
+                      Send Mail
+                    </button>
+                 
+                </div>
+              </div>
             </form>
           </div>
 
